@@ -167,7 +167,7 @@ Finally, our demo is ready at `http://localhost:7635`. View it in the browser!
 ### Start the Server
     
 > [!NOTE]
-> See `example/sample_app/configurable_server.py`, `frontend/src` and `examples/sample_app/templates` for details.
+> See `examples/sample_app/configurable_server.py`, `frontend/src` and `examples/sample_app/templates` for details.
    
 X-Talk has most models and execution on server side, and the client is responsible for interacting with microphone, transmitting audio and Websocket messages, and handle lightweight operations like Voice-Actitvty-Detection.
     
@@ -203,7 +203,7 @@ async def websocket_endpoint(websocket: WebSocket):
     await xtalk_instance.connect(websocket)
 ```
     
-Then you can check `example/sample_app/configurable_server.py` for how to mount client-side scripts and pages.
+Then you can check `examples/sample_app/configurable_server.py` for how to mount client-side scripts and pages.
     
 #### Text Embedding
 
